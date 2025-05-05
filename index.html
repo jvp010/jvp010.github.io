@@ -41,8 +41,10 @@
     }
   
     .parent div {
-      border: 1px solid #000;
-      background: #e0e0e0;
+    
+      border: 1px solid #ffffff;
+      background: #000000;
+      color: rgb(255, 255, 255);
       text-align: center;
       font-size: 1.1rem;
       padding: 20px;
@@ -52,25 +54,29 @@
     p {
       margin-bottom: 0.75rem;
     }
+
+    strong.title {
+        color: rgb(10, 255, 10);
+    }
   </style>
   
   <body> 
     <div class="parent">
       <div class="div1">
-          <p><strong>Howdy </strong></p>
+          <p><strong class="title">Howdy </strong></p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
       </div>
       <div class="div2">
-        <p><strong>Sidebar</strong></p>
+        <p><strong class="title">Sidebar</strong></p>
         <p>Lorem ipsum dolor sit amet.</p>
         <p>Et tu, brute? Sit down cowboy.</p>
       </div>
       <div class="div3">
-        <p><strong>Footer</strong></p>
+        <p><strong class="title">Footer</strong></p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit.</p>
       </div>
       <div class="div4">
-        <p><strong>Main Content</strong></p>
+        <p><strong class="title">Main Content</strong></p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan tortor. Nulla facilisi.</p>
         <p>Aliquam erat volutpat. Suspendisse potenti. Proin gravida, neque eget dapibus dapibus, est ante facilisis metus.</p>
         <p>More words here just to fill things up and make the section look legit. You know the drill.</p>
